@@ -12,7 +12,7 @@ from google.cloud import aiplatform
 # --- ENV CONFIG ---
 os.environ["GOOGLE_CLOUD_PROJECT"] = "ham10000-477009"
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "service-account.json"  # update this if needed
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 
 # --- INIT ---
 client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
